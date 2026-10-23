@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Birthday Card
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="birthday-card">
+        <div class="lock-screen bg-option-c">
+            <div class="lock-panel">
+                <div class="display" id="passkey-display">
+                    <span class="placeholder-hint">DDMMYY</span>
+                </div>
+                <div class="keypad">
+                    <button id="btn-1">1</button>
+                    <button id="btn-2">2</button>
+                    <button id="btn-3">3</button>
+                    <button id="btn-4">4</button>
+                    <button id="btn-5">5</button>
+                    <button id="btn-6">6</button>
+                    <button id="btn-7">7</button>
+                    <button id="btn-8">8</button>
+                    <button id="btn-9">9</button>
+                    <button id="btn-del">DEL</button>
+                    <button id="btn-0">0</button>
+                    <button id="btn-ok">OK</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="cake-screen">
+            <section class="cake-gate">
+                <div id="birthday-cake">
+                    <div class="flame-hitbox" id="canlde-trigger"></div>
+                    <svg class="flame-svg">
+
+                    </svg>
+                </div>
+                <div id="wind-effect"></div>
+            </section>
+            <div class="dust-particles particles-1"></div>
+            <div class="dust-particles particles-2"></div>
+            <div class="dust-particles particles-3"></div>
+        </div>
+        <div class="vinyl-zone">
+            <div class="record-assembly">
+                <div class="vinyl">
+                    <div id="vinyl"></div>
+                    <img id="album-artwork" src="dalam-dinamika.jpg" alt="Artwok album Dalam Dinamika">
+                </div>
+            </div>
+            <div class="track-info">
+                <p id="track-title">
+                    Perunggu - Gemilang
+                </p>
+            </div>
+            <div class="music-controls">
+                <button id="prev-track" aria-label="Previous track">
+                    &#x23EE
+                </button>
+                <button id="toggle-play" aria-label="Pause music">
+                    &#x25B6
+                </button>
+                <button id="next-track" aria-label="Next track">
+                    &#x23ED
+                </button>
+            </div>
+            <audio id="music" src="Perunggu - Gemilang.mp3"></audio>
+        </div>
+        <div class="experience-screen">
+            <section class="main-screen">
+                <div class="photo photo-1">
+                    <img src="MBG.jpg" alt="Photo">
+                </div>
+                <div class="photo photo-2">
+                    <img src="MBG2.jpg" alt="Photo">
+                </div>
+                <div class="photo photo-3">
+                    <img src="MBG3.jpg" alt="Photo">
+                </div>
+                <div class="photo photo-4">
+                    <img src="MBG4.jpg" alt="Photo">
+                </div>
+                <div class="photo photo-5">
+                    <img src="MBG5.jpg" alt="Photo">
+                </div>
+                <div class="photo photo-6">
+                    <img src="MBG6.jpg" alt="Photo">
+                </div>
+
+                <div class="envelope">
+                    <img class="envelope-back" src="envelope-back.svg">
+                    <div class="paper" id="paper">
+                        <div class="letter">
+                            <p class="greeting">
+                                Selamat ulang tahun yang ke-21, Van.
+                            </p>
+                            <p class="main-letter">
+                                Usia yang makin dewasa, semoga kamu selalu dikelilingi orang-orang baik yang bisa berjalan bersamamu menuju hal-hal yang selama ini kamu harapkan dan panjatkan.
+
+Semoga apa yang disemogakan, perlahan tersemogakan. Capai cita-citamu setinggi mungkin, sampai nanti kamu tiba di satu titik di mana kamu lupa pernah bersusah payah untuk menggapainya.
+
+Kalaupun pernah gagal, enggak apa-apa. Gagal itu bukan akhir, tapi gagal yang sebenarnya adalah saat kita memilih untuk berhenti mencoba dan berhenti percaya pada diri sendiri.
+
+Semoga dunia lebih sering memberi alasan untuk kamu tersenyum.
+                            </p>
+                            <p class="closing">
+                                -Dino
+                            </p>
+                        </div>
+                    </div>
+                    <div class="paper-trigger">
+
+                    </div>
+                    <div class="close-trigger">
+                        
+                    </div>
+                    <img class="envelope-front" src="envelope-front.svg">
+                </div>
+                <button class="scroll-indicator" id="scroll-to-wish">&downarrow;</button>
+            </section>
+
+            <section class="wish-screen">
+                <div class="wish-container">
+                    <h2 class="judul">
+                        Harapan satu tahun ke-depan
+                    </h2>
+                    <textarea id="wish-input" placeholder="Tulis Harapanmu di sini..."></textarea>
+                    <button id="wish-submit">
+                        Buat Harapan
+                    </button>
+                    <div class="wish-result">
+
+                    </div>
+                </div>
+                <div class="user-lantern">
+
+                </div>
+                <div class="wish-lantern">
+                    
+                </div>
+                <div class="supporting-lanterns">
+                    <div class="support-lantern lantern-1"></div>
+                    <div class="support-lantern lantern-2"></div>
+                    <div class="support-lantern lantern-3"></div>
+                    <div class="support-lantern lantern-4"></div>
+                    <div class="support-lantern lantern-5"></div>
+                    <div class="support-lantern lantern-6"></div>
+                    <div class="support-lantern lantern-7"></div>
+                    <div class="support-lantern lantern-8"></div>
+                    <div class="support-lantern lantern-9"></div>
+                    <div class="support-lantern lantern-10"></div>
+                </div>
+            </section>
+        </div>
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

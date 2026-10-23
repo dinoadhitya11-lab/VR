@@ -1,0 +1,14 @@
+<svg width="653" height="440" viewBox="0 0 653 440" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Envelope">
+<g id="closing-flap">
+<path id="Triangular flap" d="M616 340L51 340L325.312 171.507C330.771 168.164 336.229 168.164 341.688 171.507L616 340Z" fill="url(#paint0_linear_0_1)"/>
+<path id="Pearl paper edge" d="M599 339.5L334 175.5C329.333 172.167 324.667 172.167 320 175.5L55 339.5" stroke="#FFF8EF" stroke-opacity="0.6" stroke-width="0.9" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_1" x1="333.5" y1="340" x2="333.5" y2="169" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F5DDE1"/>
+<stop offset="1" stop-color="#E7C6D2"/>
+</linearGradient>
+</defs>
+</svg>

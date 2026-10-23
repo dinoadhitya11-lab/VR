@@ -1,0 +1,43 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="record">
+    <circle cx="300" cy="300" r="300" fill="url(#paint0_radial_24_19)"/>
+    <circle cx="300" cy="300" r="299.625" stroke="#2A272F" stroke-opacity="0.85" stroke-width="0.75"/>
+    <circle cx="300" cy="300" r="281.025" stroke="#65616B" stroke-opacity="0.28" stroke-width="0.45"/>
+    <circle cx="300" cy="300" r="262.275" stroke="#3B3741" stroke-opacity="0.22" stroke-width="0.45"/>
+    <circle cx="300" cy="300" r="243.525" stroke="#65616B" stroke-opacity="0.28" stroke-width="0.45"/>
+    <circle cx="300" cy="300" r="224.775" stroke="#3B3741" stroke-opacity="0.22" stroke-width="0.45"/>
+    <circle cx="300" cy="300" r="206.025" stroke="#65616B" stroke-opacity="0.28" stroke-width="0.45"/>
+    <circle cx="300" cy="300" r="187.275" stroke="#3B3741" stroke-opacity="0.22" stroke-width="0.45"/>
+    <circle cx="300" cy="300" r="168.55" stroke="#65616B" stroke-opacity="0.28" stroke-width="0.4"/>
+    <circle cx="300" cy="300" r="149.8" stroke="#3B3741" stroke-opacity="0.22" stroke-width="0.4"/>
+    <circle cx="300" cy="300" r="131.05" stroke="#65616B" stroke-opacity="0.28" stroke-width="0.4"/>
+    <path d="M300 190.825C360.295 190.825 409.175 239.704 409.175 300C409.175 360.296 360.295 409.175 300 409.175C239.704 409.175 190.825 360.296 190.825 300C190.825 239.704 239.704 190.825 300 190.825Z" stroke="#3B3741" stroke-opacity="0.22" stroke-width="0.4"/>
+    <circle cx="300" cy="300" r="93.55" stroke="#65616B" stroke-opacity="0.28" stroke-width="0.4"/>
+    <path d="M300 214.338C347.31 214.338 385.662 252.69 385.662 300C385.662 347.31 347.31 385.662 300 385.662C252.69 385.662 214.338 347.31 214.338 300C214.338 252.69 252.69 214.338 300 214.338Z" stroke="#807681" stroke-opacity="0.22" stroke-width="0.55"/>
+    <ellipse cx="300" cy="300" rx="71.875" ry="71.875" fill="url(#paint1_radial_24_19)"/>
+    <path d="M300 228.375C339.557 228.375 371.625 260.443 371.625 300C371.625 339.557 339.557 371.625 300 371.625C260.442 371.625 228.375 339.557 228.375 300C228.375 260.443 260.442 228.375 300 228.375Z" stroke="#E3BBC6" stroke-opacity="0.32" stroke-width="0.5"/>
+    <path d="M300 254.888C324.915 254.888 345.113 275.085 345.113 300C345.113 324.915 324.915 345.112 300 345.112C275.085 345.112 254.888 324.915 254.888 300C254.888 275.085 275.085 254.888 300 254.888Z" stroke="#F2D5DC" stroke-opacity="0.18" stroke-width="0.4"/>
+    <ellipse cx="300" cy="300" rx="10" ry="10" fill="#171319"/>
+    <path d="M300 290.175C305.426 290.175 309.825 294.574 309.825 300C309.825 305.426 305.426 309.825 300 309.825C294.573 309.825 290.174 305.426 290.174 300C290.174 294.574 294.573 290.175 300 290.175Z" stroke="#EBC8D1" stroke-opacity="0.25" stroke-width="0.35"/>
+</g>
+<g id="highlight">
+    <path
+    d="M110 180 A220 220 0 0 1 300 80"
+    stroke="FFFFFF"
+    stroke-opacity="0.35"
+    stroke-width="14"
+    stroke-linecap="round"
+    />
+</g>
+<defs>
+<radialGradient id="paint0_radial_24_19" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(300 300) scale(300)">
+<stop stop-color="#1B1A1D"/>
+<stop offset="0.58" stop-color="#0E0D10"/>
+<stop offset="1" stop-color="#040405"/>
+</radialGradient>
+<radialGradient id="paint1_radial_24_19" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(300 300) scale(71.875 71.875)">
+<stop stop-color="#C996A6"/>
+<stop offset="1" stop-color="#9C637A"/>
+</radialGradient>
+</defs>
+</svg>

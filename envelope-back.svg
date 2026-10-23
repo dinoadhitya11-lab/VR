@@ -1,0 +1,14 @@
+<svg width="640" height="440" viewBox="0 0 640 440" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<g id="envelope-back">
+<path id="Back paper" d="M44 96H596C598.667 96 600 97.3333 600 100V396C600 398.667 598.667 400 596 400H44C41.3333 400 40 398.667 40 396V100C40 97.3333 41.3333 96 44 96Z" fill="#E3C1CB"/>
+<path id="Inner lining" d="M50 98H600L325 288L50 98Z" fill="url(#paint0_linear_0_1)"/>
+<path id="Opening lip" d="M46 98H594" stroke="#8E7386" stroke-opacity="0.38" stroke-linejoin="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_1" x1="325" y1="98" x2="325" y2="288" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B39AAA"/>
+<stop offset="1" stop-color="#CEB8C3"/>
+</linearGradient>
+</defs>
+</svg>

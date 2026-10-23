@@ -1,0 +1,84 @@
+<svg id="lanternSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" class="w-full h-full drop-shadow-[0_20px_35px_rgba(0,0,0,0.5)]">
+                    <defs>
+                        <!-- Glow Filters -->
+                        <filter id="outerGlowFilter" x="-50%" y="-50%" width="200%" height="200%">
+                            <feGaussianBlur id="feGlowBlur" stdDeviation="35" result="blur"></feGaussianBlur>
+                            <feComposite in="SourceGraphic" in2="blur" operator="over"></feComposite>
+                        </filter>
+
+                        <!-- Paper Body Gradient -->
+                        <linearGradient id="paperGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop id="gradStopPaperTop" offset="0%" stop-color="#6f5864" stop-opacity="0.9"></stop>
+                            <stop id="gradStopPaperBottom" offset="100%" stop-color="#432c39" stop-opacity="0.9"></stop>
+                        </linearGradient>
+
+                        <!-- Inner Light Glow Gradient -->
+                        <radialGradient id="innerFlameGlow" cx="50%" cy="80%" r="70%">
+                            <stop id="gradStopFlameCore" offset="0%" stop-color="#ffda8a" stop-opacity="1"></stop>
+                            <stop id="gradStopInnerGlow" offset="50%" stop-color="#ff9e67" stop-opacity="0.75"></stop>
+                            <stop offset="100%" stop-color="#FF9E67" stop-opacity="0"></stop>
+                        </radialGradient>
+
+                        <!-- Soft Top Rim Shadow -->
+                        <linearGradient id="topRimGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"></stop>
+                            <stop offset="100%" stop-color="#000000" stop-opacity="0.3"></stop>
+                        </linearGradient>
+                    </defs>
+
+                    <!-- LAYER 1: Ambient Outer Glow Aura -->
+                    <g id="layer-ambient-glow">
+                        <ellipse id="svgAmbientGlow" cx="200" cy="320" rx="120" ry="100" fill="url(#innerFlameGlow)" filter="url(#outerGlowFilter)" opacity="0.85"></ellipse>
+                    </g>
+
+                    <!-- LAYER 2: Main Paper Lantern 2D-3D Shell -->
+                    <g id="layer-paper-body">
+                        <!-- Main Shell Path -->
+                        <path id="svgPaperBody" d="M 120 100 
+                                Q 200 80 280 100 
+                                Q 330 220 290 380 
+                                Q 200 415 110 380 
+                                Q 70 220 120 100 Z" fill="url(#paperGradient)"></path>
+                    </g>
+
+                    <!-- LAYER 3: Inner Flame & Light Core -->
+                    <g id="layer-inner-light">
+                        <!-- Inner Flame Core Fill Overlay -->
+                        <path id="svgInnerLightArea" d="M 120 100 
+                                 Q 200 80 280 100 
+                                 Q 330 220 290 380 
+                                 Q 200 415 110 380 
+                                 Q 70 220 120 100 Z" fill="url(#innerFlameGlow)" style="mix-blend-mode: screen;"></path>
+
+                        <!-- Small Flame Source Bulb -->
+                        <g id="svgFlameBulb" transform="translate(200, 375) scale(1)">
+                            <!-- Outer Flame Aura -->
+                            <ellipse id="svgFlameAura" cx="0" cy="-10" rx="22" ry="32" fill="#FF9E67" opacity="0.6"></ellipse>
+                            <!-- Inner Bright Flame -->
+                            <path id="svgFlameShape" d="M -8 0 Q 0 -28 8 0 Q 0 8 -8 0 Z" fill="#FFDA8A"></path>
+                        </g>
+                    </g>
+
+                    <!-- LAYER 4: 2D-3D Vertical Ribs & Creases (Structure) -->
+                    <g id="layer-ribs" stroke="#523948" stroke-width="1.5" fill="none" stroke-linecap="round">
+                        <!-- Center Rib -->
+                        <path id="svgRibCenter" d="M 200 88 Q 200 240 200 398"></path>
+                        <!-- Left Inner Rib -->
+                        <path id="svgRibLeft1" d="M 160 94 Q 140 235 155 390"></path>
+                        <!-- Right Inner Rib -->
+                        <path id="svgRibRight1" d="M 240 94 Q 260 235 245 390"></path>
+                        <!-- Left Outer Edge Rib -->
+                        <path id="svgRibLeftOuter" d="M 120 100 Q 70 220 110 380"></path>
+                        <!-- Right Outer Edge Rib -->
+                        <path id="svgRibRightOuter" d="M 280 100 Q 330 220 290 380"></path>
+                    </g>
+
+                    <!-- LAYER 5: Top Cap & Base Rims -->
+                    <g id="layer-rims">
+                        <!-- Top Curved Cap -->
+                        <path id="svgTopRim" d="M 120 100 Q 200 80 280 100 Q 200 112 120 100 Z" fill="url(#topRimGradient)" stroke="#523948" stroke-width="1"></path>
+
+                        <!-- Bottom Base Opening Ring -->
+                        <ellipse id="svgBottomRim" cx="200" cy="380" rx="90" ry="18" fill="#2a1723" stroke="#523948" stroke-width="2"></ellipse>
+                    </g>
+                </svg>
